@@ -1,0 +1,37 @@
+{
+  "totalPoints": 200,
+  "anomalies": [
+    {
+      "index": 50,
+      "type": "jump",
+      "origLat": 47.63965960069529,
+      "origLon": -122.34771539389271,
+      "injectedLat": 47.70905675060532,
+      "injectedLon": -122.38519831240795
+    },
+    {
+      "index": 120,
+      "type": "jump",
+      "origLat": 47.6642804447207,
+      "origLon": -122.3283090189694,
+      "injectedLat": 47.653084103127455,
+      "injectedLon": -122.39764422503623
+    },
+    {
+      "index": 80,
+      "type": "static",
+      "startIndex": 80,
+      "endIndex": 89
+    },
+    {
+      "index": 30,
+      "type": "accuracy",
+      "accuracy": 80
+    },
+    {
+      "index": 140,
+      "type": "accuracy",
+      "accuracy": 80
+    }
+  ]
+}

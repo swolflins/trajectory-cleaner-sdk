@@ -1,0 +1,118 @@
+{
+  "seattle": {
+    "config": {
+      "maxAccuracy": 30,
+      "staticQueueSize": 5,
+      "staticDistanceThreshold": 10,
+      "motionConfirmCount": 3,
+      "statsWindowSize": 10,
+      "anomalyMethod": "iqr",
+      "initialSigma": 3,
+      "continuousSigma": 2,
+      "iqrMultiplier": 2,
+      "maxVelocity": 41.67,
+      "anomalyStrategy": "replace"
+    },
+    "metrics": {
+      "f1": 0.3846153846153846,
+      "precision": 0.23809523809523808,
+      "recall": 1,
+      "rmse": 37.820228177599915,
+      "meanError": 15.962756724780249,
+      "maxError": 169.0885059853447,
+      "p95Error": 94.25848259714424,
+      "retention": 1,
+      "truePositives": 10,
+      "falsePositives": 32,
+      "falseNegatives": 0,
+      "staticRecall": 0
+    }
+  },
+  "geolife": {
+    "config": {
+      "maxAccuracy": 30,
+      "staticQueueSize": 15,
+      "staticDistanceThreshold": 10,
+      "motionConfirmCount": 3,
+      "statsWindowSize": 5,
+      "anomalyMethod": "zscore",
+      "initialSigma": 3,
+      "continuousSigma": 3,
+      "iqrMultiplier": 1.5,
+      "maxVelocity": 41.67,
+      "anomalyStrategy": "replace"
+    },
+    "metrics": {
+      "f1": 0.2857142857142857,
+      "precision": 0.16666666666666666,
+      "recall": 1,
+      "rmse": 51.21457472222562,
+      "meanError": 21.31703159147396,
+      "maxError": 251.02819251702618,
+      "p95Error": 128.96525216875074,
+      "retention": 0.985,
+      "truePositives": 10,
+      "falsePositives": 50,
+      "falseNegatives": 0,
+      "staticRecall": 0
+    }
+  },
+  "synthetic": {
+    "config": {
+      "maxAccuracy": 30,
+      "staticQueueSize": 5,
+      "staticDistanceThreshold": 10,
+      "motionConfirmCount": 3,
+      "statsWindowSize": 5,
+      "anomalyMethod": "zscore",
+      "initialSigma": 3,
+      "continuousSigma": 1.5,
+      "iqrMultiplier": 1.5,
+      "maxVelocity": 41.67,
+      "anomalyStrategy": "replace"
+    },
+    "metrics": {
+      "f1": 0.4117647058823529,
+      "precision": 0.25925925925925924,
+      "recall": 1,
+      "rmse": 196.50511697183387,
+      "meanError": 66.05181306844334,
+      "maxError": 1198.6517424844842,
+      "p95Error": 599.3258712422419,
+      "retention": 1,
+      "truePositives": 7,
+      "falsePositives": 20,
+      "falseNegatives": 0,
+      "staticRecall": 0
+    }
+  },
+  "recommended": {
+    "config": {
+      "maxAccuracy": 30,
+      "staticQueueSize": 15,
+      "staticDistanceThreshold": 10,
+      "motionConfirmCount": 3,
+      "statsWindowSize": 5,
+      "anomalyMethod": "zscore",
+      "initialSigma": 3,
+      "continuousSigma": 3,
+      "iqrMultiplier": 1.5,
+      "maxVelocity": 41.67,
+      "anomalyStrategy": "replace"
+    },
+    "metrics": {
+      "f1": 0.2857142857142857,
+      "precision": 0.16666666666666666,
+      "recall": 1,
+      "rmse": 51.21457472222562,
+      "meanError": 21.31703159147396,
+      "maxError": 251.02819251702618,
+      "p95Error": 128.96525216875074,
+      "retention": 0.985,
+      "truePositives": 10,
+      "falsePositives": 50,
+      "falseNegatives": 0,
+      "staticRecall": 0
+    }
+  }
+}

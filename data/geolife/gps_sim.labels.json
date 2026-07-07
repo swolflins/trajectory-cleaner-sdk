@@ -1,0 +1,63 @@
+{
+  "totalPoints": 200,
+  "anomalies": [
+    {
+      "index": 20,
+      "type": "jump",
+      "origLat": 39.984362261195955,
+      "origLon": 116.36193715507261,
+      "injectedLat": 39.955667735651794,
+      "injectedLon": 116.34813705747501
+    },
+    {
+      "index": 45,
+      "type": "jump",
+      "origLat": 39.98352807369167,
+      "origLon": 116.36344585388593,
+      "injectedLat": 39.983755158305826,
+      "injectedLon": 116.40325482927676
+    },
+    {
+      "index": 70,
+      "type": "jump",
+      "origLat": 39.97991376549481,
+      "origLon": 116.36931812337092,
+      "injectedLat": 39.99355648916554,
+      "injectedLon": 116.32399736134634
+    },
+    {
+      "index": 100,
+      "type": "jump",
+      "origLat": 39.97119613058806,
+      "origLon": 116.38672865482782,
+      "injectedLat": 39.99540385590173,
+      "injectedLon": 116.39030415221261
+    },
+    {
+      "index": 160,
+      "type": "jump",
+      "origLat": 39.954800590818195,
+      "origLon": 116.40409174482423,
+      "injectedLat": 39.999910965626924,
+      "injectedLon": 116.38533166312568
+    },
+    {
+      "index": 35,
+      "type": "static",
+      "startIndex": 35,
+      "endIndex": 44
+    },
+    {
+      "index": 75,
+      "type": "static",
+      "startIndex": 75,
+      "endIndex": 84
+    },
+    {
+      "index": 175,
+      "type": "static",
+      "startIndex": 175,
+      "endIndex": 184
+    }
+  ]
+}

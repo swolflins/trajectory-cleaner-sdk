@@ -1,0 +1,24 @@
+# Java
+java/target/
+*.class
+*.jar
+
+# Go
+go/bin/
+*.exe
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Empty data files
+*.plt
+
+# Reports (generated)
+# reports/  -- keep validation report
