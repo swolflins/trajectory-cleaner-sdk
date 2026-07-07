@@ -202,7 +202,7 @@ public class Main {
 ## 技术栈
 
 - **Go**: Go 1.18+
-- **Java**: JDK 17, Maven 3.x, JUnit 5, Jackson
+- **Java**: JDK 8+, Maven 3.x, JUnit 5, Jackson
 - **可视化**: ECharts
 
 ## License

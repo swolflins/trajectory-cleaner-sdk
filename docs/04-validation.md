@@ -549,7 +549,7 @@ if seattle_score < threshold or geolife_score < threshold:
 | 内存 | 待定 |
 | OS | Linux |
 | Go 版本 | 待定 |
-| JDK 版本 | 待定 |
+| JDK 版本 | JDK 8+ |
 
 ### 9.2 基准测试方法
 
